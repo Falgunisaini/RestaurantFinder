@@ -31,7 +31,7 @@ class Header extends Component {
             if (sessionStorage.getItem('uName') !== null) {
                 return (
                     <>
-                        <Link to="/" className="btn" id="login" style={{ width: '60%';marginLeft: '-20%' }}></Link>
+                        <Link to="/" className="btn" id="login" style={{ width: '60%',marginLeft: '-20%' }}></Link>
                         &nbsp;
                         <button onClick={this.handleLogout} className="btn" id="signup"><span className="glyphicon glyphicon-log-out"></span>Log out</button>
                         
@@ -45,7 +45,7 @@ class Header extends Component {
                 sessionStorage.setItem('loginStatus', 'loggedIn');
                 return (
                     <>
-                        <Link to="/" className="btn" id="login" style={{ width: '60%';marginLeft: '-20%' }}><span className="glyphicon glyphicon-user"></span>Hi {data.name}</Link>
+                        <Link to="/" className="btn" id="login" style={{ width: '60%',marginLeft: '-20%' }}><span className="glyphicon glyphicon-user"></span>Hi {data.name}</Link>
                         &nbsp;
                         <button onClick={this.handleLogout} className="btn" id="signup"><span className="glyphicon glyphicon-log-out"></span>Log out</button>
                     </>
