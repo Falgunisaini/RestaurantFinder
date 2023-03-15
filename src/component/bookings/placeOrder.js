@@ -94,7 +94,7 @@ class PlaceOrder extends Component {
                                     <h3>Your Order from Restaurant: {this.props.match.params.restName} </h3>
                                 </div>
                                 <div className="panel-body">
-                                    <form action="https://foodscape-payment.herokuapp.com/paynow" method="POST">
+                                    <form action="https://foodscapepayment-production.up.railway.app/paynow" method="POST">
                                         <input type="hidden" name="cost" value={this.state.cost} />
                                         <input type="hidden" name="id" value={this.state.id} />
                                         <input type="hidden" name="Rest_name" value={this.state.Rest_name} />

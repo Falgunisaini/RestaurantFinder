@@ -29,17 +29,9 @@ class Header extends Component {
     conditionalHeader = () => {
         if (this.state.userData.name || sessionStorage.getItem('uName') !== null) {
             if (sessionStorage.getItem('uName') !== null) {
-
-                // let oAuthArray = [sessionStorage.getItem('uName').toLowerCase().trim().split(' ')[0]]
-                // sessionStorage.setItem('oAuthname', oAuthArray);
-                // let name = sessionStorage.getItem('uName');
-                // let image = sessionStorage.getItem('uImg');
                 return (
                     <>
-                        <Link to="/" className="btn" id="login" style={{ width: '60%' }}>
-                            <img src={image} style={{ height: 40, width: 40, marginTop: '-4%', marginLeft: '-9%' }} id="gitImg" /> &nbsp;
-                            <span className="glyphicon glyphicon-user"></span>Hi {name}
-                        </Link>
+                        <Link to="/" className="btn" id="login" style={{ width: '60%';marginLeft: '-20%' }}></Link>
                         &nbsp;
                         <button onClick={this.handleLogout} className="btn" id="signup"><span className="glyphicon glyphicon-log-out"></span>Log out</button>
                         
@@ -53,7 +45,7 @@ class Header extends Component {
                 sessionStorage.setItem('loginStatus', 'loggedIn');
                 return (
                     <>
-                        <Link to="/" className="btn" id="login" style={{ width: '60%' }}><span className="glyphicon glyphicon-user"></span>Hi {data.name}</Link>
+                        <Link to="/" className="btn" id="login" style={{ width: '60%';marginLeft: '-20%' }}><span className="glyphicon glyphicon-user"></span>Hi {data.name}</Link>
                         &nbsp;
                         <button onClick={this.handleLogout} className="btn" id="signup"><span className="glyphicon glyphicon-log-out"></span>Log out</button>
                     </>
@@ -63,11 +55,7 @@ class Header extends Component {
         else {
             return (
                 <>
-                    {/* <a className="btn btn-info" id="loginGit" href="https://github.com/login/oauth/authorize?client_id=e142ac826f134c8bf347">
-                        Login With Github
-                    </a>
-                    &nbsp; */}
-                    <Link to="/login" className="btn" id="login" style={{ width: '30%' }}><span className="glyphicon glyphicon-log-in"></span>Login</Link>
+                    <Link to="/login" className="btn" id="login" style={{ width: '40%' }}><span className="glyphicon glyphicon-log-in"></span>Login</Link>
                     &nbsp;
                     <Link to="/register" className="btn" id="signup"><span className="glyphicon glyphicon-user"></span>Sign Up</Link>
                 </>
