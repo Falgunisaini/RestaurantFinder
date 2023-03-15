@@ -1,0 +1,87 @@
+.tileContainer{
+    background-color: whitesmoke;
+    height: 270px;
+    width: 100%;
+    float: left;
+    margin-top: 10%;
+    box-shadow: 10px 15px 18px #abadb8;
+}
+
+.tileContainer:hover{
+    transform: scale(1.05);
+}
+
+.tileComponent1{
+    width: 100%;
+    display: block;
+    height: 100px;
+}
+
+.tileComponent1 > img{
+    width: 100%;
+    height: 170px;
+}
+
+.tileComponent2{
+    width: 100%;
+    display: block;
+    height: 80px;
+    margin-left: 2%;
+    margin-top: 23%;
+}
+
+.componentHeading{
+    color:#8e97a7;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.componentHeading:hover{
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+.componentSubHeading{
+    color:#4d4b4b;
+    font-size: 17px;
+}
+
+/* Media query for quickSearch */
+
+@media screen and (max-width:1199px) {
+    .componentHeading{
+        margin-top: -5%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .componentHeading{
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .componentSubHeading {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .tileContainer {
+        width: 70%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .tileContainer {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .tileContainer {
+        width: 90%;
+    }
+}

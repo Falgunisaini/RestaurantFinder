@@ -1,0 +1,61 @@
+footer{
+    height: 60px;
+    border: 1px solid #a7a7a7;
+    background-color: #a7a7a7;
+}
+
+footer > center > p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1%;
+    color: #f7f7f7;
+}
+
+/* Media Query for footer */
+@media screen and (max-width:1199px) {
+    footer{
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    footer{
+        margin-top: 35%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    footer{
+        margin-top: 190%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    footer{
+        margin-top: 200%;
+    }
+}
+
+@media screen and (max-width: 680px){
+    footer{
+        margin-top: 210%;
+    }
+}
+
+@media screen and (max-width: 680px){
+    footer{
+        margin-top: 220%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    footer{
+        margin-top: 230%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    footer{
+        margin-top: 260%;
+    }
+}

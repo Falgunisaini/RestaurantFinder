@@ -1,0 +1,28 @@
+/* Quick Search starts */
+#quickSearch{
+    height: 700px;
+    display: inline-block;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#quickHeading{
+    display: block;
+    font-size: 28px;
+    color: #942b3c;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#quickSubHeading{
+    display: block;
+    font-size: 20px;
+    color: #4d4b4b;
+    line-height: 1%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+

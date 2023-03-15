@@ -1,0 +1,20 @@
+.orderItems{
+    float:left;
+    height:300px;
+    width:250px;
+    margin:2%;
+    box-shadow:10px 10px 20px #a19999;
+}
+
+.orderItems>img{
+   height:200px;
+   width:100%;
+}
+
+#formContainer{
+    color: #31708f;
+}
+
+#DisplayTable{
+    font-size: 16px;
+}

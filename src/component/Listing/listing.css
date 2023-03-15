@@ -1,0 +1,223 @@
+
+#mainListing{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+#filter{
+    height:600px;
+    width:20%;
+    float: left;
+    border: 5px solid gray;
+}
+
+#content{
+    width:65%;
+    float: left;
+    margin-left: 5%;
+    margin-top: -1%;
+
+}
+
+.itemDiv{
+    width: 875px;
+    height: 320px;
+    box-shadow: 10px 10px 20px #aba8a8;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    background-color: #fbfbfb;
+}
+
+.itemImage {
+    width: 340px;
+    height: 260px;
+    border-radius: 23px;
+    background-color: #ea6060;
+    margin-left:5%;
+    margin-top: 4%;
+}
+
+.restaurant_name {
+    width: 100%;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 2;
+    text-align: left;
+    color: #555c62;
+    margin-top: 0%;
+}
+
+.city_name {
+    width: 100%;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 1;
+    text-align: left;
+    color: #555c62;
+}
+
+.rating {
+    line-height: 2;
+    padding-top: 3%;
+}
+
+.labelDiv{
+    margin-top: 0%;
+}
+
+a{
+    color: #555c62;
+    text-decoration: none;
+}
+
+#Loading{
+    color:#555c62;
+}
+
+/* Media Query Starts */
+
+@media screen and (max-width:1300px){
+    #mainListing {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    #mainListing {
+        margin-left: 4%;
+    }
+    #ListingComp1{
+        margin-left: -3%;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    #filter {
+        height: 600px;
+        width: 95%;
+        margin-left: 0.5%;
+        height: 300px;
+    }
+    #cuisineDiv, #costDiv, #sortDiv{
+        width: 28%;
+        float: left;
+        vertical-align: top;
+        margin-left: 5%;
+    }
+    #filterSubHeading{
+        text-align: left;
+        margin-left: 9%;
+    }
+    #content {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #content{
+        margin-left: 5.5%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #content{
+        margin-left: 3%;
+    }
+    .itemImage{
+        width: 33%;
+        margin-top: 2%;
+    }
+    #contentDiv{
+        margin-top: -30%;
+        margin-left: 42%;
+    }
+    .itemDiv{
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .itemDiv{
+        width: 135%;
+        margin-left: 2%;
+    }
+    #contentDiv {
+        margin-top: -32%;
+        margin-left: 44%;
+    }
+    .restaurant_name{
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #contentDiv {
+        margin-top: -37%;
+        margin-left: 48%;
+    }
+    .itemImage {
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #contentDiv {
+        margin-top: -30%;
+        margin-left: 49%;
+    }
+    .itemImage {
+        width: 40%;
+        height: 200px;
+        margin-top: 2%;
+    }
+    .labelDiv {
+        margin-top: 15%;
+        margin-left: -94%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #contentDiv {
+        margin-top: -30%;
+        margin-left: 50%;
+    }
+    .itemImage {
+        width: 35%;
+        height: 175px;
+    }
+    .labelDiv{
+        margin-top: 8%;
+        margin-left: -98%;
+    }
+    .rating{
+        padding-top: 15%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .labelDiv {
+        margin-top: 6%;
+        margin-left: -75%;
+    }
+    #contentDiv {
+        margin-top: -32%;
+        margin-left: 42%;
+    }
+    .city_name{
+        font-size:18px;
+    }
+    .rating {
+        padding-top: 4%;
+    }
+}
+
+@media screen and (max-width: 530px){
+    #contentDiv {
+        margin-top: -36%;
+    }
+}

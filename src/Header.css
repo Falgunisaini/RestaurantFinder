@@ -1,0 +1,113 @@
+/* Header */
+.navbar{
+    background-color: #a7a7a7;
+    border-radius: 0px;
+    margin-bottom: 0%;
+}
+
+/* Brand Name */
+.navbar-brand{
+    color: #f7f7f7 !important;
+    font-weight: bold;
+}
+
+.navbar-inverse, .navbar-toggle,.navbar-collapse {
+    border: 0px solid;
+}
+
+.navbar-right{
+    margin-top: 0.5%;
+}
+
+#navComponents{
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    float: right;
+}
+
+#hamburger{
+    width: 45px;
+    height: 45px;
+    margin-top: -70%;
+    border-radius: 20%;   
+    margin-left: -35%;
+}
+
+#login, #signup{
+    width: 105px;
+    height: 40px;
+    background-color: white;
+    padding: 6px;
+    font-size: 18px;
+}
+
+#login:hover, #signup:hover{
+    color: #337ab7 !important
+}
+
+#login{
+    background-color:#9df19d;
+    width: 30%;
+}
+
+#loginGit{
+    width: 43%;
+    margin-left: -8%;
+    height: 40px;
+    font-size: 16px;
+}
+
+#signup{
+    background-color: #f7f7f7;
+}
+
+.glyphicon-user{
+    width: 12%;
+    padding-right: 22px;
+}
+
+.glyphicon-log-in, .glyphicon-log-out{
+    padding-right: 3px;
+}
+
+@media screen and (max-width:767px) {
+    #navComponents{
+        margin-top: -6%;
+        margin-bottom: 1%;
+    }
+    #login{
+        width: 30%;
+        display: block;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    #loginGit {
+        width: 30%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    #signup{
+        width: 30%;
+        display: block;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #navComponents{
+        margin-top: -7%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    #navComponents{
+        margin-top: -7.5%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #navComponents{
+        margin-top: -9.5%;
+    }
+}

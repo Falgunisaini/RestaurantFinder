@@ -1,0 +1,255 @@
+/* Carousel Images */
+#sliderImg1, #sliderImg2, #sliderImg3{
+    height: 500px;
+    width: 100%;
+}
+
+
+/* Search starts */
+
+/* Logo Starts */
+#logo {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    background-color: #a39c9ced;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 46%;
+    border: 1px solid #958888;
+    box-shadow: 5px 5px 10px #683f379e;
+    animation: logoMovement 8s infinite;
+    z-index: 100;
+}
+
+@keyframes logoMovement {
+    0%{margin-left: 46%;}
+    25%{margin-left: 28%;}
+    50%{margin-left: 46%;}
+    75%{margin-left: 64%;}
+    100%{margin-left: 48%;}
+}
+
+#logo > span {
+    position: absolute;
+    color: #70040a;
+    margin-top: 28%;
+    margin-left: 24%;
+    font-size: 41px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Logo Ends */
+
+/* Headline Starts */
+#headline {
+    position: absolute;
+    width: 40%;
+    margin-top: 15%;
+    margin-left: 30%;
+    background-color: #f7f7f7cf;
+    border: 0.5px solid #efe8e8;
+    box-shadow: 10px 10px 20px #141005;
+    z-index: 100;
+}
+
+#headline > h2{
+    color: #70040a;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Headline Ends */
+
+/* Dropdown Starts */
+#dropdown{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 36%;
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    z-index: 100;
+}
+
+select{
+    height: 55px;
+    text-align: center;
+    border: 0.5px solid #c7a69f;
+}
+
+#city{
+    background-color: #f6f7f7;
+    color: #70040a;
+    width: 20%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.restaurant{
+    background-color: #f6f7f7;
+    color: #70040a;
+    width: 32%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Dropdown Ends */
+
+@media screen and (max-width: 1225px){
+    #headline {
+        width: 42%;
+        margin-left: 30%;
+        margin-top: 16%;
+    }
+    #dropdown{
+        margin-top: 24%;
+        margin-left: 37%;
+    }
+}
+
+@media screen and (max-width: 1167px){
+    #headline {
+        width: 45%;
+        margin-left: 28%;
+        margin-top: 19%;
+    }
+    #dropdown{
+        margin-top: 27%;
+        margin-left: 37%;
+    }
+}
+
+@media screen and (max-width: 1111px){
+    #city{
+        width: 23%;
+    }
+    .restaurant {
+        width: 35%;
+    }
+    #dropdown {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1093px){
+    #headline {
+        width: 52%;
+        margin-left: 27%;
+        margin-top: 18%
+    }
+    #dropdown{
+        margin-top: 27%;
+        margin-left: 39%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #city{
+        width: 26%;
+    }
+    .restaurant {
+        width: 38%;
+    }
+    #dropdown {
+        margin-left: 35%;
+    }
+}
+
+
+@media screen and (max-width: 946px){
+    #headline {
+        width: 58%;
+        margin-left: 22%;
+        margin-top: 21%
+    }
+    #dropdown{
+        margin-top: 31%;
+    }
+}
+
+@media screen and (max-width: 893px){
+    #city{
+        width: 29%;
+    }
+    .restaurant {
+        width: 41%;
+    }
+    #dropdown {
+        margin-left: 32%;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    #headline {
+        width: 62%;
+        margin-left: 18%;
+        margin-top: 21%
+    }
+    #dropdown{
+        width: 58%;
+        margin-top: 33%;
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 794px){
+    #headline {
+        width: 75%;
+        margin-left: 12%;
+    }
+    #dropdown{
+        width: 62%;
+        margin-top: 36%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 707px){
+    #headline {
+        margin-top: 29%;
+    }
+    #dropdown{
+        width: 64%;
+        margin-top: 43%;
+        margin-left: 24%;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+    #dropdown{
+        width: 71%;
+        margin-top: 50%;
+        margin-left: 23%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    #headline {
+        margin-top: 32%;
+    }
+    #dropdown{
+        margin-top: 56%;
+        margin-left: 22%;
+    }
+    #item{
+        height: 400px;
+        background-size: 100% 400px;
+    }
+    #city {
+        width: 31%;
+    }
+    .restaurant {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #dropdown{
+        margin-left: 19%;
+    }
+    #city {
+        width: 33%;
+    }
+    .restaurant {
+        width: 48%;
+    }
+}
